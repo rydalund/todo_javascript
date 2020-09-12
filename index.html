@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>"TODO: Todo-list"</title>
@@ -10,19 +10,22 @@
     <body>
         <main>
             <h1>Todo-list</h1>
-            <p>Register a new todo below</p>
-            <form id="registerTodo">
-                <label for="todoTitle">Title:</label>
-                <input type="text" id="todoTitle" placeholder="Enter todo title here...">
-            </form>
-            <br>
-            <button id="btnAddTodo">Add Todo</button>
-            <br>
-            <br>
-            <button id="btnShowTodos">Show all Todos</button>
-            <br>
-            <br>
-            <button id="btnDeleteTodo">Delete a Todo</button>
+            <div id="registerTodos">
+                <p>Register a new todo below</p>
+                <form id="registerTodo">
+                    <label for="Title">Title:</label>
+                    <input type="text" id="todoTitle" placeholder="Enter todo title here...">
+                </form>
+                <br>
+                <button id="btnAddTodo">Add Todo</button>
+                <br>
+            </div>
+            <div id="showTodos">
+                <br>
+                <button id="btnShowTodos">Show all Todos</button>
+                <br>
+                <div id ="placeForTodos"></div>
+            </div>
         </main>
         <footer>
         </footer>
